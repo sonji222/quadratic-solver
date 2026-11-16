@@ -19,10 +19,10 @@ int main(){
 	cout<<"Enter c\n";
 	cin>>c;
 	r=quadratic1(a,b,c,d,x); 
-	cout<<"Root of x^2-7x+12 = "<<r<<"\n";
+	cout<<"Root of ax^2+bx+c = "<<r<<"\n";
 	k=quadratic2(a,b,c,d,x);
-	cout<<"Root of x^2-7x+12 = "<< k<<"\n";
-	d=(d*d)-(4*a*c);
+	cout<<"Root of ax^2+bx+c = "<< k<<"\n";
+	d=(b*b)-(4*a*c);
 	cout<<"b^2-4ac = "<<d<<"\n";
 	if (d>0){
 		cout<<"Nature of root: real and distinct";
